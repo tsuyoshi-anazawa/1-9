@@ -61,3 +61,47 @@ main{
 .title{
 	margin: 15px 0 5px;
 }
+
+@media screen and (max-width:768px) {
+	main{
+		width: 100%;
+		margin: 50px auto;
+	}
+	.box{
+		float: none;
+		width: 90%;
+		margin: 20px auto;
+
+	}
+	.box:last-child{
+		margin-right: auto;
+	}
+	
+	.box-image1{
+		background-position: center;
+	}
+	
+	.box-image2{
+		background-position: center;
+	}
+	
+	.box-image3{
+		background-position: center;
+	}
+}
+
+@media screen and (max-width:425px) {
+	main{
+		width: 100%;
+		margin: 50px auto;
+	}
+	.box{
+		float: none;
+		width: 90%;
+		margin: 20px auto;
+
+	}
+	.box:last-child{
+		margin-right: auto;
+	}
+}
